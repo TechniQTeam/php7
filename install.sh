@@ -7,7 +7,7 @@ echo "[#] Giving Permission Storage"
 termux-setup-storage
 echo "[!] For first time, please choose allow if appear pop up permissions on android 5+"
 echo "[#] Installing PHP 7"
-dpkg -i php_7.4.12_aarch64.deb
+dpkg -i php_7.4.12_i686.deb
 echo "[#] Copying PHP 7 Library"
 cp libicudata.so.67 libicui18n.so.67 libicuio.so.67 libicuuc.so.67 /data/data/com.termux/files/usr/lib/
 echo "[√] Installing PHP 7 done "
