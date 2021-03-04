@@ -9,7 +9,7 @@ echo "[!] For first time, please choose allow if appear pop up permissions on an
 echo "[#] Installing PHP 7"
 dpkg -i php_7.4.12_i686.deb
 echo "[#] Copying PHP 7 Library"
-cp libicui18n.so.67 libicuio.so.67 libicutest.so.67 libicutu.so.67 libicuuc.so.67 libre2.so.8.0.0 libxml2.so.2.9.10 /data/data/com.termux/files/usr/lib/
+cp libicui18n.so.67 libicuio.so.67 libicuuc.so.67 /data/data/com.termux/files/usr/lib/
 echo "[√] Installing PHP 7 done "
 echo "[#] Checking PHP Version"
 php -v
